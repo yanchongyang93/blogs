@@ -45,6 +45,9 @@ class Post(models.Model):
     tags = models.ManyToManyField(Tag, verbose_name='标签',blank=True)
     author = models.ForeignKey(User, verbose_name='作者',on_delete=models.CASCADE)
 
+    #新增view字段用于记录阅读量
+    views = models.PositiveIntegerField(default=0)
+
     class Meta:
         verbose_name = '文章'
         verbose_name_plural = verbose_name
@@ -74,3 +77,9 @@ class Post(models.Model):
         self.excerpt = strip_tags(md.convert(self.body))[:54]
 
         super().save(*args, **kwargs)
+
+
+    #访问后增加
+    def increase_view(self):
+        self.views+=1
+        self.save(update_fields=['views'])

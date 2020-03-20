@@ -10,6 +10,7 @@ urlpatterns = [
     # path('archives/<int:year>/<int:month>/',views.archive,name='archive'),
     # path('categories/<int:pk>/',views.category,name='category'),
     # path('tag/<int:pk>/',views.tag,name='tag'),
+    path('search/',views.search,name='search'),
 
 
     #类视图

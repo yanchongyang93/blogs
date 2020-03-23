@@ -1,0 +1,30 @@
+[2020-03-20 17:21:01 +0800] [28615] [INFO] Starting gunicorn 20.0.4
+[2020-03-20 17:21:01 +0800] [28615] [INFO] Listening at: http://127.0.0.1:8000 (28615)
+[2020-03-20 17:21:01 +0800] [28615] [INFO] Using worker: gthread
+[2020-03-20 17:21:01 +0800] [28618] [INFO] Booting worker with pid: 28618
+[2020-03-20 17:21:01 +0800] [28619] [INFO] Booting worker with pid: 28619
+[2020-03-20 17:21:01 +0800] [28620] [INFO] Booting worker with pid: 28620
+[2020-03-20 09:25:43 +0000] [28619] [INFO] Parent changed, shutting down: <Worker 28619>
+[2020-03-20 09:25:43 +0000] [28619] [INFO] Worker exiting (pid: 28619)
+[2020-03-20 09:25:44 +0000] [28620] [INFO] Parent changed, shutting down: <Worker 28620>
+[2020-03-20 09:25:44 +0000] [28620] [INFO] Worker exiting (pid: 28620)
+[2020-03-20 09:25:44 +0000] [28618] [INFO] Parent changed, shutting down: <Worker 28618>
+[2020-03-20 09:25:44 +0000] [28618] [INFO] Worker exiting (pid: 28618)
+[2020-03-20 17:27:14 +0800] [29537] [INFO] Starting gunicorn 20.0.4
+[2020-03-20 17:27:14 +0800] [29537] [INFO] Listening at: http://127.0.0.1:8000 (29537)
+[2020-03-20 17:27:14 +0800] [29537] [INFO] Using worker: gthread
+[2020-03-20 17:27:14 +0800] [29540] [INFO] Booting worker with pid: 29540
+[2020-03-20 17:27:14 +0800] [29541] [INFO] Booting worker with pid: 29541
+[2020-03-20 17:27:14 +0800] [29544] [INFO] Booting worker with pid: 29544
+[2020-03-21 15:16:36 +0800] [29544] [INFO] Parent changed, shutting down: <Worker 29544>
+[2020-03-21 15:16:36 +0800] [29544] [INFO] Worker exiting (pid: 29544)
+[2020-03-21 15:16:36 +0800] [29541] [INFO] Parent changed, shutting down: <Worker 29541>
+[2020-03-21 15:16:36 +0800] [29541] [INFO] Worker exiting (pid: 29541)
+[2020-03-21 15:16:37 +0800] [29540] [INFO] Parent changed, shutting down: <Worker 29540>
+[2020-03-21 15:16:37 +0800] [29540] [INFO] Worker exiting (pid: 29540)
+[2020-03-21 15:18:50 +0800] [24092] [INFO] Starting gunicorn 20.0.4
+[2020-03-21 15:18:50 +0800] [24092] [INFO] Listening at: http://127.0.0.1:8000 (24092)
+[2020-03-21 15:18:50 +0800] [24092] [INFO] Using worker: gthread
+[2020-03-21 15:18:50 +0800] [24095] [INFO] Booting worker with pid: 24095
+[2020-03-21 15:18:50 +0800] [24096] [INFO] Booting worker with pid: 24096
+[2020-03-21 15:18:50 +0800] [24098] [INFO] Booting worker with pid: 24098
